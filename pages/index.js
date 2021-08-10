@@ -1,7 +1,8 @@
 function index() {
   return (
     <div className="relative py-12 px-32 bg-gray-100 min-h-screen">
-      <div className="z-100 p-12 h-full bg-white shadow-md rounded-3xl">
+      <div class="absolute -z-10 inset-16 bg-gradient-to-r from-cyan-400 to-cyan-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+      <div className="p-12 h-full bg-white shadow-md rounded-3xl">
         <div>
           <img src="/logo.svg" className="h-7 mb-5"></img>
         </div>

@@ -13,6 +13,9 @@ module.exports = {
           500: "#00bcd4",
         },
       },
+      zIndex: {
+        "-10": "-10",
+      },
     },
   },
   variants: {
